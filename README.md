@@ -1,5 +1,7 @@
 # HA Host Monitor
 
+**English** | [简体中文](README.zh-Hans.md)
+
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz)
 [![Release](https://img.shields.io/github/v/release/EziosWJ/ha-host-monitor?include_prereleases)](https://github.com/EziosWJ/ha-host-monitor/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
