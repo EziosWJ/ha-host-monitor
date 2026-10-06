@@ -1,0 +1,13 @@
+[project]
+name = "ha-host-monitor"
+version = "0.1.0"
+description = "Home Assistant custom integration exposing Linux host metrics from mounted /proc, /sys and root"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

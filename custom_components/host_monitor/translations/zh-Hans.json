@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Host Monitor",
+        "description": "通过以只读方式挂载到 Home Assistant 容器的宿主机目录监控 Linux 宿主机：\n\n- `{proc}`\n- `{sys}`\n- `{root}`\n\n为保证网络统计准确，容器必须使用主机网络（`network_mode: host`）。"
+      }
+    },
+    "error": {
+      "not_mounted": "未检测到宿主机目录挂载。请将宿主机的 /proc、/sys 和 / 以只读方式挂载到 /host/proc、/host/sys 和 /host/root。"
+    },
+    "abort": {
+      "already_configured": "Host Monitor 已配置。"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "cpu_usage": { "name": "CPU 使用率" },
+      "load_1m": { "name": "负载（1 分钟）" },
+      "load_5m": { "name": "负载（5 分钟）" },
+      "load_15m": { "name": "负载（15 分钟）" },
+      "memory_usage": { "name": "内存使用率" },
+      "memory_used": { "name": "已用内存" },
+      "memory_available": { "name": "可用内存" },
+      "memory_total": { "name": "内存总量" },
+      "disk_usage": { "name": "磁盘使用率" },
+      "disk_used": { "name": "已用磁盘" },
+      "disk_free": { "name": "磁盘可用" },
+      "disk_total": { "name": "磁盘总量" },
+      "network_rx": { "name": "网络接收" },
+      "network_tx": { "name": "网络发送" },
+      "network_rx_rate": { "name": "网络接收速率" },
+      "network_tx_rate": { "name": "网络发送速率" },
+      "cpu_temperature": { "name": "CPU 温度" },
+      "uptime": { "name": "运行时间" }
+    }
+  }
+}
