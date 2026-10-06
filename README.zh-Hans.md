@@ -24,6 +24,21 @@
 - 单个设备、单个配置项、零配置 UI 添加
 - 单个指标失败不会拖垮整个集成
 
+## 截图
+
+<table>
+  <tr>
+    <td><img src="img/01.png" alt="仪表盘概览" width="300"></td>
+    <td><img src="img/02.png" alt="设备页" width="300"></td>
+    <td><img src="img/03.png" alt="宿主机监控卡片" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">仪表盘概览</td>
+    <td align="center">设备页（全部实体）</td>
+    <td align="center">宿主机监控卡片</td>
+  </tr>
+</table>
+
 ## 环境要求
 
 - Home Assistant **Container**（Docker / Podman），`2024.6` 或更高

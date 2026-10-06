@@ -25,6 +25,21 @@ external shell commands — just the kernel's own interfaces.
 - One device, one config entry, zero-configuration UI setup
 - A failing metric never takes down the integration
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="img/01.png" alt="Dashboard overview" width="300"></td>
+    <td><img src="img/02.png" alt="Device page" width="300"></td>
+    <td><img src="img/03.png" alt="Host monitor card" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">Dashboard overview</td>
+    <td align="center">Device page with all entities</td>
+    <td align="center">Host monitor card</td>
+  </tr>
+</table>
+
 ## Requirements
 
 - Home Assistant **Container** (Docker / Podman), `2024.6` or newer
